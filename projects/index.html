@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<section id="people">
+    <div class="container" id="welcome">
+        <div class="welcome-banner">
+            <h2 class="welcome-banner-heading">Fundings</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="http://www.cnes.fr" >
+                    <img class="mg-responsive img-center" alt="Centre National d'Etudes Spatiales" src="{{site.baseurl}}/assets/img/people/cnes.png" title="Mercator Ocean is a strong partner blabla ..."></img></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="http://www.mercator-ocean.fr" >
+                    <img class="mg-responsive img-center" alt="Mercator Océan" src="{{site.baseurl}}/assets/img/people/mercator-ocean.png" title="Mercator Ocean is a strong partner blabla ..."></img></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="http://www.agence-nationale-recherche.fr" >
+                    <img class="mg-responsive img-center" alt="Agence Nationale de la Recherche" src="{{site.baseurl}}/assets/img/people/anr.png"></img></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <a href="http://www.horizon2020.fr" >
+                    <img class="mg-responsive img-center" alt="Horizon 2020" src="{{site.baseurl}}/assets/img/people/h2020.jpeg"></img></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="welcome">
+        <div class="welcome-banner">
+            <h2 class="welcome-banner-heading">Ongoing projects</h2>
+        </div>
+    </div>
+
+<div class="container">
+    {% for post in site.data.projects %}
+        <div class="panel panel-default" id="{{post.ancre}}">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        {% if post.image %} 
+                            <img class="img-responsive img-centered" src="{{site.baseurl}}/assets/img/projects/{{post.image}}" alt="">
+                        {% endif %}
+                    </div>
+                    <div class="col-md-9">
+                        <h3 class="bio-heading"> {{post.title}} </h3>
+                        <p class="date"> {{post.date}} </p>
+                        <p> {{post.text}} </p>
+                        {% if post.link %} 
+                            <p class="date"> <a href="{{post.link}}"> Read More </a> </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+</section>

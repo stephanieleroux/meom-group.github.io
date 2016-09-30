@@ -1,0 +1,41 @@
+
+- title : 
+  pic : assets/img/carousel/unravel.png
+  picg : assets/img/carousel/unravelg.png
+  picm : assets/img/carousel/unravelm.png
+  pics : assets/img/carousel/unravels.png
+  text : Exploring ocean fine scales motions
+  link : unravel
+  colorf : black
+  colorb : white
+
+- title : 
+  pic : assets/img/carousel/chaos3.png
+  picg : assets/img/carousel/chaos3g.png
+  picm : assets/img/carousel/chaos3m.png
+  pics : assets/img/carousel/chaos3s.png
+  text : Quantifying chaos and uncertainties in the ocean evolution
+  link : forecast
+  colorf : black
+  colorb : white
+
+- title : 
+  pic : assets/img/carousel/climate.png
+  picg : assets/img/carousel/climateg.png
+  picm : assets/img/carousel/climatem.png
+  pics : assets/img/carousel/climates.png
+  text : Understanding the ocean role in the climate machinery
+  link : climate
+  colorf : white
+  colorb : black
+
+- title : 
+  pic : assets/img/carousel/nemo.png
+  picg : assets/img/carousel/nemog.png
+  picm : assets/img/carousel/nemom.png
+  pics : assets/img/carousel/nemos.png
+  text : Contributing to a european modeling infrastructure for ocean science, climate and operational applications
+  link : nemo
+  colorf : white
+  colorb : black
+

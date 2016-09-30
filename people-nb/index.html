@@ -1,0 +1,106 @@
+---
+layout: default
+---
+
+
+<div class="container" id="welcome">
+    <div class="welcome-banner">
+        <h2 class="welcome-banner-heading">Group Members</h2>
+    </div>
+</div>
+
+<section id="people">
+    <div class="container">
+        <div class="row">
+            {% for person in site.data.group_nb %}
+            <div class="col-md-6">  
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                {% if person.website %}
+                                    <a href="{{person.website}}"> <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}"> </a>
+                                {% else %}
+                                    <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}">
+                                {% endif %}
+                            </div>
+
+                            <div class="col-xs-8">
+                                <h4 class="person-name">{{person.name}}</h4>
+
+                                <p>{{person.title}}</p>
+
+                                {% if person.post %} 
+                                <p>
+                                    {{person.post}}      
+                                </p>
+                                {% endif %}
+
+                                
+
+                                {% if person.email %}
+                                <p><img class="img-responsive" src="{{site.baseurl}}/assets/img/people/{{person.email}}" ></p>
+                                {% endif %}
+
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<div class="container" id="welcome">
+    <div class="welcome-banner">
+        <h2 class="welcome-banner-heading">Students, Post-docs, Visiting Scientists</h2>
+        <p>These are the people who make the science</p>
+    </div>
+</div>
+
+<section id="people">
+    <div class="container">
+        <div class="row">
+            {% for person in site.data.nonperm_nb %}
+            <div class="col-md-6">  
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                {% if person.website %}
+                                    <a href="{{person.website}}"> <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}"> </a>
+                                {% else %}    
+                                    <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}">
+                                {% endif %}
+                            </div>
+                            <div class="col-xs-8">
+                                <h4 class="person-name">{{person.name}}</h4>
+
+                                <p>{{person.title}}</p>
+
+                                {% if person.post %} 
+                                <p>
+                                    {{person.post}}      
+                                </p>
+                                {% endif %}
+
+                                
+
+                                {% if person.email %}
+                                <p><img class="img-responsive" src="{{site.baseurl}}/assets/img/people/{{person.email}}" ></p>
+                                {% endif %}
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,63 @@
+<div class="container" id="welcome">
+    <div class="welcome-banner text-center">
+        <h2 class="welcome-banner-heading "> MEOM a computational oceanography research group at IGE</h2>
+        <br>
+        <p>Our research group at Laboratoire de Glaciologie et Géophysique de l’Environnement (LGGE) promotes an integrated data-driven approach to computational oceanography  that combines ocean modelling, geophysical fluid dynamics, and satellite/in-situ observations. </p>
+        
+        <br>
+        <a class="btn btn-sm btn-info" href="about">Read More</a>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 text-center">
+                <h4> <i class="fa fa-cog fa-5x"></i><br> </h4>
+                <p></p>
+                <a class="btn btn-sm btn-info" href="projects">Our Projects</a>
+            </div>
+            <div class="col-sm-3 text-center">
+                <h4> <i class="fa fa-group fa-5x"></i><br> </h4>
+                <p></p>
+                <a class="btn btn-sm btn-warning" href="people">People</a>
+            </div>
+            <div class="col-sm-3 text-center">
+                <h4> <i class="fa fa-book fa-5x"></i><br> </h4>
+                <p></p>
+                <a class="btn btn-sm btn-success" href="publications/">Publications</a>
+            </div>
+           <div class="col-sm-3 text-center">
+                <h4> <i class="fa fa-user-plus fa-5x"></i><br>  </h4>
+                <p></p>
+                <a class="btn btn-sm btn-info" href="jobs/">Join the team</a>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="container">
+    <div class="welcome-banner">
+        <h2 class="welcome-banner-heading"> Recent News </h2>
+    </div>
+    <br>
+    </div>
+    <div class="container">
+         <div class="row">
+                <div class="box post">
+			
+                            {% for post in site.posts %}
+                                <div class="list-item">
+                                    <h4 class="list-post-title">
+                                       <em> <time>{{ post.date | date_to_string }}</time> </em> - <a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> 
+                                    </h4>
+                                </div>
+			
+                            {% endfor %}
+                            
+                </div>
+          </div>
+     </div>
+
+
+
+</div>
+

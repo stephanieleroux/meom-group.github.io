@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container"  id="welcome">
+    <div class="welcome-banner">
+        <h2 class="welcome-banner-heading">News</h2>
+        <p>The MEOM team contributes to the organisation of various scientific events: </p>
+    </div>
+</div>
+<div class="container">
+    {% for post in site.data.news %}
+        <div class="panel panel-default" id="{{post.ancre}}">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        {% if post.image %} 
+                            <img class="img-responsive img-centered" src="{{site.baseurl}}/assets/img/news/{{post.image}}" alt="">
+                        {% endif %}
+                    </div>
+                    <div class="col-md-9">
+                        <h3 class="bio-heading"> {{post.title}} </h3>
+                        <p class="date"> {{post.date}} </p>
+                        <p> {{post.text}} </p>
+                        {% if post.link %} 
+                            <p class="date"> <a href="{{post.link}}"> En savoir plus </a> </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+

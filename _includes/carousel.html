@@ -1,0 +1,54 @@
+
+    <div id="carousel-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-generic" data-slide-to="4"></li>
+        <!--    <li data-target="#carousel-generic" data-slide-to="5"></li> -->
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <!--<img style="height:340px" src="{{site.baseurl}}/assets/img/carousel/meom2.png" srcset="{{site.baseurl}}/assets/img/carousel/meom2s.png 250w, {{site.baseurl}}/assets/img/carousel/meom2m.png 500w, {{site.baseurl}}/assets/img/carousel/meom2g.png 1000w, {{site.baseurl}}/assets/img/carousel/meom2.png 2052w" alt=""> -->
+                <div class="imgcar"> 
+                    <img style="width:100%" src="{{site.baseurl}}/assets/img/carousel/mer5.png" srcset="{{site.baseurl}}/assets/img/carousel/mer5s.png 250w, {{site.baseurl}}/assets/img/carousel/mer5m.png 500w, {{site.baseurl}}/assets/img/carousel/mer5g.png 1000w, {{site.baseurl}}/assets/img/carousel/mer5.png 2052w" alt="">
+                </div>
+                
+                <!--{% if  screen.width <= 1650 %}
+                <div style="height:273px;width:1650px;overflow:hidden"> <img style="width:100%" src="{{site.baseurl}}/assets/img/carousel/meom2.png" alt=""> </div>
+                {% endif %}-->
+
+                <div class="carousel-caption">
+
+                    <p class="lead" align="left" style="color:white"> MEOM a computational oceanography research group at IGE  </p>
+                    <a class="btn btn-lg btn-primary" href="about/" align="left">Learn more</a>
+                </div>
+            </div>
+            {% for topic in site.data.carousel %}
+            <div class="item">
+                <div class="imgcar"> 
+                    <img style="width:100%" src="{{site.baseurl}}/{{topic.pic}}" srcset="{{site.baseurl}}/{{topic.pics}} 250w, {{site.baseurl}}/{{topic.picm}} 500w, {{site.baseurl}}/{{topic.picg}} 1000w, {{site.baseurl}}/{{topic.pic}} 2052w" alt="">
+                </div>
+                <div class="carousel-caption">
+                    <h2 align="left" style="color:{{topic.colorf}}" style="background:{{topic.colorb}}" >{{topic.title}}</h2>
+                    <p class="lead" align="left" style="color:{{topic.colorf}}"> <span style="background:{{topic.colorb}}">{{topic.text}}</span></p>
+                    <a class="btn btn-lg btn-primary" href="{{topic.link}}" align="left">Learn more</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>

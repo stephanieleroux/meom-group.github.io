@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MEOM Research Group</title>
+    <description>Research activities and news of the MEOM Group</description>
+    <link>https://auraoupa.github.io/template4/</link>
+    <atom:link href="https://auraoupa.github.io/template4/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 30 Sep 2016 14:54:11 +0200</pubDate>
+    <lastBuildDate>Fri, 30 Sep 2016 14:54:11 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>DRAKKAR 2017 Annual Workshop</title>
+        <description>&lt;p&gt;The overall objective is to review the scientific and technical 
+progresses achieved with the DRAKKAR hierarchy of model configurations 
+based on the NEMO platform, identify strengths and weaknesses of these 
+models, and discuss key model improvements and new developments that are 
+needed for the future.&lt;/p&gt;
+
+&lt;p&gt;The Website of the workshop will be open soon. It will provide 
+information regarding this year scientific focus, 
+registrations, social events, campus maps,  etc.&lt;/p&gt;
+
+&lt;p&gt;Contact at MEOM: Bernard Barnier&lt;/p&gt;
+
+&lt;p&gt;Dates: 16-18 January 2017&lt;/p&gt;
+
+&lt;p&gt;Place: Amphitheater in the new amphitheater of the IMAG building on the 
+Grenoble  University Campus.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Sep 2016 00:00:00 +0200</pubDate>
+        <link>https://auraoupa.github.io/template4/2016/09/16/drakkar-annual-meeting-2017/</link>
+        <guid isPermaLink="true">https://auraoupa.github.io/template4/2016/09/16/drakkar-annual-meeting-2017/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>MEOM website is launched</title>
+        <description>&lt;p&gt;Check out this new website !&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Sep 2016 00:00:00 +0200</pubDate>
+        <link>https://auraoupa.github.io/template4/2016/09/15/launching-website-meom/</link>
+        <guid isPermaLink="true">https://auraoupa.github.io/template4/2016/09/15/launching-website-meom/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
