@@ -19,7 +19,7 @@ layout: default
                         <div class="row">
                             <div class="col-xs-4">
                                 {% if person.website %}
-			            <a href="{{person.website}}" > <img class="img-responsive img-circle" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}';" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'"  name="Photo of {{person.name}}> </a>
+			            <a href="{{person.website}}" > <img class="img-responsive img-circle" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'"  name="Photo of {{person.name}}> </a>
                                     
                                 {% else %}
 			            <img class="img-responsive img-circle" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}';" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'"  name="Photo of {{person.name}}>
