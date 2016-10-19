@@ -15,8 +15,8 @@ etc). Some theories predict that because of nonlinearity, the ocean
 evolution is not totally determined by external drivers such as the 
 atmospheric variability: MEOM's high-resolution simulations confirm that 
 the ocean evolution also depends substantially on small uncertainties in 
-initial conditions, even over long (decadal and longer) timescales. The 
-ocean evolution is thus not fully deterministic, but partly chaotic: it 
+initial conditions, even over long (decadal and longer) periods. The 
+ocean evolution is thus not fully deterministic in the turbulent regime, but partly chaotic over a wide range of timescales: it 
 should be simulated from ensembles of multiple realizations, described 
 and studied from probability distribution functions that represent this 
 inherent uncertainty.
@@ -36,7 +36,7 @@ simulations, for characterizing, studying and reducing these
 uncertainties. Current projects include in particular:
 
    - the [OCCIPUT](add link here) project, which investigates the 
-climate-related consequences of the ocean's chaotic behavior
+climate-related fingerprints and implications of the ocean's chaotic behavior
 
   - our studies of modelling uncertainties, in order to improve 
-operational oceanic forecasting systems (eg. at MERCATOR-OCEAN).
+operational oceanic forecasting systems (eg. at Mercator-Océan).
