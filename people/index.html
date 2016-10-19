@@ -12,16 +12,17 @@ layout: default
 <section id="people">
     <div class="container">
         <div class="row">
-            {% for person in site.data.group %}
+            {% for person in site.data.group_nb %}
             <div class="col-md-6">  
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-xs-4">
                                 {% if person.website %}
-                                    <a href="{{person.website}}"> <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}"> </a>
+ 				    <a onmouseover="document.photo.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="document.photo.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'" href="{{person.website}}" ><img src="{{site.baseurl}}/assets/img/people/{{person.image_nb}}"  name="Photo of {{person.name}}"></a>
+                                    
                                 {% else %}
-                                    <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}">
+                                    <a onmouseover="document.photo.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="document.photo.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'" > <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}"> </a>
                                 {% endif %}
                             </div>
 
@@ -64,7 +65,7 @@ layout: default
 <section id="people">
     <div class="container">
         <div class="row">
-            {% for person in site.data.nonperm %}
+            {% for person in site.data.nonperm_nb %}
             <div class="col-md-6">  
                 <div class="panel panel-default">
                     <div class="panel-body">
