@@ -12,17 +12,17 @@ layout: default
 <section id="people">
     <div class="container">
         <div class="row">
-            {% for person in site.data.group_nb %}
+            {% for person in site.data.group %}
             <div class="col-md-6">  
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-xs-4">
                                 {% if person.website %}
-			            <a href="{{person.website}}" > <img class="img-responsive img-circle" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'"  name="Photo of {{person.name}}"> </a>
+			            <a href="{{person.website}}" > <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image_nb}}" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'"  name="Photo of {{person.name}}"> </a>
                                     
                                 {% else %}
-			            <img class="img-responsive img-circle" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'"  name="Photo of {{person.name}}">
+			            <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image_nb}}" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'"  name="Photo of {{person.name}}">
                                 {% endif %}
                             </div>
 
@@ -65,16 +65,16 @@ layout: default
 <section id="people">
     <div class="container">
         <div class="row">
-            {% for person in site.data.nonperm_nb %}
+            {% for person in site.data.nonperm %}
             <div class="col-md-6">  
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-xs-4">
                                 {% if person.website %}
-                                    <a href="{{person.website}}"> <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}"> </a>
+                                    <a href="{{person.website}}"> <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image_nb}}" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'" alt="Photo of {{person.name}}"> </a>
                                 {% else %}    
-                                    <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image}}" alt="Photo of {{person.name}}">
+                                    <img class="img-responsive img-circle" src="{{site.baseurl}}/assets/img/people/{{person.image_nb}}" onmouseover="this.src='{{site.baseurl}}/assets/img/people/{{person.image_color}}'" onmouseout="this.src='{{site.baseurl}}/assets/img/people/{{person.image_nb}}'" alt="Photo of {{person.name}}">
                                 {% endif %}
                             </div>
                             <div class="col-xs-8">

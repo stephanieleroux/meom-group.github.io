@@ -1,63 +1,97 @@
+- name : Ajayi Adekunle
+  title : PhD Student
+  email : 
+  image_nb : Ajayi_nb.jpg
+  image_color : Ajayi_color.jpg
+  post : 
+
 - name : Aurélie Albert
   title : Research Engineer
   email : albert.png
-  image : 
+  image_nb : Albert_nb.jpg
+  image_color : Albert_color.jpg
   post : 
 
 - name : Christophe Calone
   title : PhD Student
   email : calone.png
-  image : 
+  image_nb : Calone_nb.jpg
+  image_color : Calone_color.jpg
   post : 
-  
+
+- name : Luc Charrois
+  title : PhD Student, co-supervised with CEN, Grenoble
+  email : charrois.png
+  image_nb : Charrois_nb.jpg
+  image_color : Charrois_color.jpg
+  post : 
+ 
+- name : Mondher Chekki
+  title : Research Engineer
+  email : chekki.png
+  image_nb : Chekki_nb.jpg
+  image_color : Chekki_color.jpg
+  post : Long-term visitor from Mercator Océan
+
 - name : Pedro Colombo
   title : PhD Student
   email : colombo.png
-  image : 
+  image_nb : Colombo_nb.jpg
+  image_color : Colombo_color.jpg
   post : 
 
 - name : Marina Duran
   title : PhD Student
   email : duran.png
-  image : 
+  image_nb : Duran_nb.jpg
+  image_color : Duran_color.jpg
   post : 
 
 - name : Florent Garnier
   title : Post-Doc
   email : garnier.png
-  image : 
+  image_nb : Garnier_nb.jpg
+  image_color : Garnier_color.jpg
   post : 
 
+- name : Beatriz Ixetl Garcia Gomez
+  title : PhD Student
+  email : 
+  image_nb : Gomez_nb.jpg
+  image_color : Gomez_color.jpg
+  post : 
+
+- name : Serguei Gulev
+  title : Visiting Scientist
+  email : 
+  image_nb : Gulev_nb.jpg
+  image_color : Gulev_color.jpg
+  post : 
+
+
+
 - name : Stéphanie Leroux
-  title : Post-Doc
+  title : Research Assistant, Post-Doc
   email : leroux.png
-  image : 
+  image_nb : Leroux_nb.jpg
+  image_color : Leroux_color.jpg
   post : 
   website : http://lgge.osug.fr/personnels/leroux_stephanie/StephanieLeroux/Home.html
 
-- name : Luc Charrois
-  title : PhD Student, co-supervised with CEN, Grenoble
-  email : charrois.png
-  image : 
+- name : Gildas Mainsant
+  title : Research Engineer
+  email : mainsant.png
+  image_nb : Mainsant_nb.jpg
+  image_color : Mainsant_color.jpg
   post : 
 
 - name : Ignacio Merino 
   title : PhD Student, co-supervised with GLACE group at IGE
   email : merino.png
-  image : 
+  image_nb : Merino_nb.jpg
+  image_color : Merino_color.jpg
   post : 
 
-- name : Mondher Chekki
-  title : Research Engineer
-  email : chekki.png
-  image : 
-  post : Long-term visitor from Mercator Océan
-
-- name : Gildas Mainsant
-  title : Research Engineer
-  email : mainsant.png
-  image : 
-  post : 
 
 
 
