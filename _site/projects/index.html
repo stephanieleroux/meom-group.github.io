@@ -109,34 +109,67 @@
             <h2 class="welcome-banner-heading">Fundings</h2>
         </div>
     </div>
+
     <div class="container">
         <div class="row">
+
+
             <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="http://www.cnes.fr" >
+                <div class="thumbnail" id="cnes" onclick="afficheMenu(this)">
+                    <a href=# >
                     <img class="mg-responsive img-center" alt="Centre National d'Etudes Spatiales" src="/assets/img/people/cnes.png" title="Mercator Ocean is a strong partner blabla ..."></img></a>
                 </div>
+                <div id="souscnes" style="display:none">
+                    <div class="thumbnail">
+                        <a href="http://www.cnes.fr" > CNES </a> is a strong partner blabla ...
+                    </div>
+                </div>
             </div>
+
+
             <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="http://www.mercator-ocean.fr" >
+                <div class="thumbnail" id="mercator" onclick="afficheMenu(this)">
+                    <a href=# >
                     <img class="mg-responsive img-center" alt="Mercator Océan" src="/assets/img/people/mercator-ocean.png" title="Mercator Ocean is a strong partner blabla ..."></img></a>
                 </div>
+                <div id="sousmercator" style="display:none">
+                    <div class="thumbnail">
+                        <a href="http://www.mercator-ocean.fr"> Mercator Ocean </a> is a strong partner blabla ...
+                    </div>
+                </div>
             </div>
+
+
             <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="http://www.agence-nationale-recherche.fr" >
+                <div class="thumbnail" id="anr" onclick="afficheMenu(this)">
+                    <a href=# >
                     <img class="mg-responsive img-center" alt="Agence Nationale de la Recherche" src="/assets/img/people/anr.png"></img></a>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <a href="http://www.horizon2020.fr" >
-                    <img class="mg-responsive img-center" alt="Horizon 2020" src="/assets/img/people/h2020.jpeg"></img></a>
+                <div id="sousanr" style="display:none">
+                    <div class="thumbnail">
+                        <a href="http://www.agence-nationale-recherche.fr"> ANR </a>  blabla ...
+                    </div>
                 </div>
             </div>
+
+
+            <div class="col-md-3">
+                <div class="thumbnail" id="h2020" onclick="afficheMenu(this)">
+                    <a href=# >
+                    <img class="mg-responsive img-center" alt="Horizon 2020" src="/assets/img/people/h2020.jpeg"></img></a>
+                </div>
+                <div id="soush2020" style="display:none">
+                    <div class="thumbnail">
+                        <a href="http://www.horizon2020.fr"> H2020 </a> blablabla ...
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
+
+
     <div class="container" id="welcome">
         <div class="welcome-banner">
             <h2 class="welcome-banner-heading">Ongoing projects</h2>
@@ -277,6 +310,9 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="/assets/js/custom.min.js"></script>
+
+<!-- Menus deroulant -->
+<script src="/assets/js/functions.js"></script>
 
 
     </body>
