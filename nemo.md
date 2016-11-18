@@ -1,6 +1,6 @@
 ---
 layout: pagemd
-title: Contributing to a european modeling infrastructure for ocean science, climate and operational applications
+title: Contributing to developping NEMO ocean model
 permalink: /nemo/
 prevtext: About the MEOM team
 prevlink: about
