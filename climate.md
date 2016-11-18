@@ -3,9 +3,9 @@ layout: pagemd
 title: Understanding the ocean role in the climate machinery
 permalink: /climate/
 prevtext: Contributing to a european modeling infrastructure
-prevlink: nemo
+prevlink: forecast
 nextext: Scientific software
-nextlink: code
+nextlink: nemo
 ---
 
 Ocean physical properties and their **ongoing changes due to anthropogenic influences** have huge consequences. Ocean circulation controls to a large extent ocean biomass and biogeochemical cycles, ocean acidification, ocean heat and carbon uptake and sequestration, and the patterns of regional sea level changes. 

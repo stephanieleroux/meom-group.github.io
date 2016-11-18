@@ -3,9 +3,9 @@ layout: pagemd
 title: Contributing to developping NEMO ocean model
 permalink: /nemo/
 prevtext: About the MEOM team
-prevlink: about
+prevlink: climate
 nextext: Quantifying choas and uncertainties in the ocean evolution
-nextlink: forecast
+nextlink: data
 ---
 
 
