@@ -22,7 +22,7 @@ and studied from probability distribution functions that represent this
 inherent uncertainty.
 
 <img class="img-responsive img-centered" src="https://meom-group.github.io/assets/img/stochastic.jpg" alt=""/>
-*Figure 1 : Probability distribution of sea surface elevation as described by a 96-member ensemble: free ensemble simulation, with stochastic simulation of uncertainties (cyan), constrained ensemble simulation, with assimilation of satellite altimetry (green), and 10-day ensemble forecast (blue). Source : Candille et al., 2015*
+*Figure 1 : Probability distribution of sea surface elevation as described by a 96-member ensemble: free ensemble simulation, with stochastic parameterization of uncertainties (cyan), constrained ensemble simulation, with assimilation of satellite altimetry (green), and 10-day ensemble forecast (blue). Source : Candille et al., 2015*
 
 
 The ocean models are also uncertain by construction due to e.g. 
