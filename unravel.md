@@ -1,6 +1,6 @@
 ---
 layout: pagemd
-title: Exploring ocean fine scale dynamics
+title: Exploring the ocean fine scale dynamics
 permalink: /unravel/
 prevtext: About the MEOM team
 prevlink: 

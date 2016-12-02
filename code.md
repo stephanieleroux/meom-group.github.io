@@ -9,12 +9,12 @@ nextlink: data
 ---
 
 
-Because we pay a lot of attention to the **robustness and reproducibility** of our results, we distribute most of our research code under open source licenses. For instance, our contributions to [NEMO](http://www.nemo-ocean.eu/) ocean model are discussed with the NEMO System Team and distributed under the CeCILL license with NEMO releases. 
+Because we pay a lot of attention to the **robustness and reproducibility** of our results, we distribute most of our research code under open source licenses. For instance, our contributions to [NEMO](http://meom-group.github.io/nemo/) ocean model are discussed with the NEMO System Team and distributed under the CeCILL license with NEMO releases. 
 
 Other on-going active projects include : 
 
 
-- **[CDFTOOLS](http://servforge.legi.grenoble-inp.fr/projects/CDFTOOLS)** (since 2006) : A fortran package for diagnostics of ocean model output (*contact : J.-M. Molines*)
+- **[CDFTOOLS](https://github.com/meom-group/CDFTOOLS)** (since 2006) : A fortran package for diagnostics of ocean model output (*contact : J.-M. Molines*)
 
 - **[SESAM](http://lgge.osug.fr/meom/Outils/SESAM/sesam.html)** (since 2001) : A fortran library for sequencial data assimilation (*contact : J.M. Brankart*)
 
