@@ -7,7 +7,7 @@ permalink: /projects/sobums/
 The Southern Ocean (oceans south of 30°S) plays a key role in global biogeochemical cycles. But large environmental changes are ongoing in the Southern Ocean physical and biogeochemical properties. These changes reflect widespread environmental changes that are occurring throughout the southern hemisphere and over the Southern Ocean (changes in surface winds, solar radiation, sea ice cover and glacial melt from Antarctica). How the Southern Ocean primary production and carbon cycle will respond to these changing climate stressors is a matter of concern in the climate science community.
 
 
-<img class="img-responsive img-centered" src="https://auraoupa.github.io/template4/assets/img/projects/sobums-meijers.png" alt="A changing Southern Ocean."/>
+<img class="img-responsive img-centered" src="https://meom-group.github.io/assets/img/projects/sobums-meijers.png" alt="A changing Southern Ocean."/>
 
 *Figure 1 : (a) A schematic representation of the current systems in the Southern Ocean. The Antarctic Circumpolar Current (ACC) flows around Antarctica in two major branches, the Polar Front and Subantarctic Front (from Rintoul et al., 2011) ; (b) Schematic showing the impact of climate forcing in CMIP5 models in the Southern Ocean by the end of the twenty-first century. Arrows indicate changes in transport within CMIP5 model ensemble (from Meijers et al. 2014).*
 
