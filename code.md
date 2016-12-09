@@ -27,6 +27,6 @@ Some of our past projects (that may no longer be actively supported or whose the
  - **[PyDom](http://servforge.legi.grenoble-inp.fr/projects/PyDom)** (2007-2012) :  A Python Package for Physical Diagnostics of Ocean Models Outputs (*contact : J. Le Sommer*) 
  - **[SOSIE](http://sosie.sourceforge.net/)** (2007-2011): (Only a) Surface Interpolation Environment (*contact : L. Brodeau*)
  - **[PyClim](http://servforge.legi.grenoble-inp.fr/projects/soft-pyclim)** (2012-2015): Analysis of high-resolution geophysical netCDF files using Python (*contact : G. Serazin*) 
- - **CHART** (2001) visualisation tool 
+ - **[CHART](https://github.com/meom-group/CHART_COUPE)** (since 2001) visualisation tool ( [manual](https://meom-group.github.io/CHART_COUPE_DOC/) )
 
 We believe that scientific software plays an essential role in **transforming raw data and hypotheses** into science.
