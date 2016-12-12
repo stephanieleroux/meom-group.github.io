@@ -17,7 +17,7 @@
   image : 
   date : 2015-2017
   text : DRAKKAR is a scientific and technical coordination between French research teams (LEGI-Grenoble, LPO-Brest, LOCEAN-Paris), MERCATOR-ocean, NOC Southampton, IFM-Geomar Kiel, and other  teams in Europe and Canada. We propose to design, carry out, assess, and distribute high-resolution global ocean/sea-ice numerical simulations based on the NEMO platform (www.nemo-ocean.eu) performed over long periods (five decades or more), and to improve and maintain a hierarchy of state-of-the-art ocean/sea-ice model configurations for operational and research applications.
-  link : https://www.drakkar-ocean.eu/
+  link : https://meom-group.github.io/projects/drakkar
   ancre : drakkar
 
 - title : AtlantOS
