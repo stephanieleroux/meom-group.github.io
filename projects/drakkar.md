@@ -11,5 +11,6 @@ DRAKKAR maintains the ORCA025 (1/4° global) configuration and develops the ORCA
 The DRAKKAR group meets at least once a year (january-february) in Grenoble.
 
 The next venue is on [16-17-18 January 2017](http://lgge.osug.fr/meom/Events/Drakkar2017/)
+The next venue is on <a target="_blank" href="http://lgge.osug.fr/meom/Events/Drakkar2017/"> 16-17-18 January 2017 </a>
 
 You can also find the program and presentations of the previous years : [2016](http://lgge.osug.fr/meom/Events/Drakkar2016), [2015](http://lgge.osug.fr/meom/Events/Drakkar2015), [2014](http://lgge.osug.fr/meom/Events/Drakkar2014), [2013](http://lgge.osug.fr/meom/Events/Drakkar2013).
